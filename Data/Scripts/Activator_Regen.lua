@@ -28,9 +28,7 @@ local function enable(player)
 					print("Healing players")
 				end
 
-				for i, p in ipairs(Game.GetPlayers()) do
-					p:ApplyDamage(Damage.New(-REGEN_AMOUNT))
-				end
+				Events.Broadcast("activate.apply_damage", -REGEN_AMOUNT)
 			end)
 
 			task.repeatInterval = REGEN_SPEED
