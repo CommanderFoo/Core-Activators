@@ -60,6 +60,15 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 12262150691151982852
+      value {
+        Overrides {
+          Name: "cs:Debug"
+          Bool: true
+        }
+      }
+    }
     TemplateAsset {
       Id: 6041880902928097477
     }

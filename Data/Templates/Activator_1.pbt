@@ -49,6 +49,7 @@ Assets {
     Id: "bdbdc995245d45a9b47c364482afaf2c"
     OwnerAccountId: "93d6eaf2514940a08c5481a4c03c1ee3"
     OwnerName: "CommanderFoo"
+    Description: "Activator"
   }
   SerializationVersion: 107
 }

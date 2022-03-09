@@ -28,7 +28,7 @@ local function enable(player)
 					print("Healing players")
 				end
 
-				Events.Broadcast("activate.apply_damage", -REGEN_AMOUNT)
+				Events.Broadcast("activator.apply_damage", -REGEN_AMOUNT)
 			end)
 
 			task.repeatInterval = REGEN_SPEED

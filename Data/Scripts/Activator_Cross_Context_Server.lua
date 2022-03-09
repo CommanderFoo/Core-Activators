@@ -15,3 +15,15 @@ Events.Connect("activator.apply_damage", function(amount)
 		p:ApplyDamage(Damage.New(amount))
 	end
 end)
+
+-- Game.playerJoinedEvent:Connect(function(player)
+-- 	player:ApplyDamage(Damage.New(50))
+-- end)
+
+-- function Tick()
+-- 	for i, p in ipairs(Game.GetPlayers()) do
+-- 		print(p.hitPoints)
+-- 	end
+
+-- 	Task.Wait(1)
+-- end
